@@ -1,4 +1,15 @@
+//Built module
 const script2 = require('./script2.js');
+//Modules given to you by node
+const fileSystem = require('fs');
+const httpMod = require('http');
+//NPM modules
+//Check package.json file and notice nodemon is a dev dependency
+//It's install and only used in devlopment but never sent into production
+
+//Uncomment and see what you get in the terminal
+// console.log(fileSystem);
+// console.log(httpMod);
 
 //Since I sent largeNumber as an object you access the object first then the property
 const a = script2.largeNumber;

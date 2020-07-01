@@ -1,4 +1,4 @@
-const largeNumber = 356;
+const largeNumber = 350;
 
 module.exports = {
     largeNumber: largeNumber

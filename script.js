@@ -1,4 +1,7 @@
-const a = 5;
+const script2 = require('./script2.js');
+
+//Since I sent largeNumber as an object you access the object first then the property
+const a = script2.largeNumber;
 const b = 4;
 
 //setTimeout works sinces its a process in node
